@@ -25,14 +25,14 @@ $(call inherit-product, vendor/havoc/config/phone-xxhdpi-2048-hwui-memory.mk)
 $(call inherit-product, device/xiaomi/vince/device.mk)
 
 # Inherit some common Havoc OS stuff.
-$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
+$(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 
-# official tag
-export export HAVOC_BUILD_TYPE=Official
+DEVICE_MAINTAINERS := "4PERTURE (Emma)"
+BOOTLEGGERS_BUILD_TYPE := Shishufied
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
-PRODUCT_NAME := havoc_vince
+PRODUCT_NAME := bootleg_vince
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 5 Plus
