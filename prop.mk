@@ -11,5 +11,4 @@ vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.line
 persist.camera.dual.camera=0
 persist.camera.CDS=off
 
-# maintainer
-ro.havoc.maintainer=Blacksuan19
+
